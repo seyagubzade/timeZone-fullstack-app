@@ -1,0 +1,17 @@
+.newArrivals {
+    .remove-margin{
+        margin: 0 -12px;
+    }
+    .arrival-card {
+        overflow: hidden;
+        margin-top: 12px;
+        img{
+            transition: all .2s ease-in-out;
+            overflow: hidden;
+            &:hover{
+                cursor: pointer;
+                transform: scale(105%);
+            }
+        }
+    }
+}
